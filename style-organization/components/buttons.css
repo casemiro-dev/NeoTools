@@ -277,3 +277,60 @@ button img {
   background-color: #0056b3;
 }
 
+
+/*Botões prot. Copiar. Transf. Apagar.*/
+/* Protocolo */
+#btn-protocolo::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url('../../assets/protocolo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 6px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}
+
+/* Copiar */
+#btn-copiar::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url('../../assets/copiar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 6px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}
+
+/* Transferir */
+#btn-transferir::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url('../../assets/transferir.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 6px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}
+
+/* Apagar */
+#btn-apagar::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url('../../assets/excluir.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 6px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}

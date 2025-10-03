@@ -197,16 +197,16 @@ button img {
 /*Emoji SVG*/
 #btn-mp::before,
 #btn-mpdesk::before {
-  content: \'\';
+  content: '';
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url(\'journal.svg\');
+  background-image: url('../../assets/journal.svg');
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 6px;
   vertical-align: middle;
-  filter: brightness(0) invert(1); /* só no ícone */
+  filter: brightness(0) invert(1);
 }
 
 #btn-lgpd {

@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Substituir titulo da aba pelo nome do cliente
-  documente.title = document.getElementByd("cliente-nome").value;
+  document.title = document.getElementByd("cliente-nome").value;
   
   // Botões principais
   document.getElementById("btn-copiar-protocolo")?.addEventListener("click", copiarProtocolo);

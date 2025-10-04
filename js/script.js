@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Substituir titulo da aba pelo nome do cliente
+  // Substitui titulo da aba pelo nome do cliente
   document.title = document.getElementByd("cliente-nome").value;
   
   // Botões principais
